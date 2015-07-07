@@ -1,0 +1,17 @@
+<!DOCTYPE  HTML>
+<html>
+<head>
+<title>Задание2</title>
+</head>
+<body>
+<script>
+var x = prompt(' Введите число х',  '');
+var c= 1;
+for(var i=2; i<=64;i*=2)
+{
+c*=(x-i)/(x-i+1)
+}
+alert(c);
+</script>
+</body>
+</html>
